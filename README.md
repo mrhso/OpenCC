@@ -2,7 +2,7 @@
 
 [ ![Download](https://api.bintray.com/packages/byvoid/opencc/OpenCC/images/download.svg) ](https://bintray.com/byvoid/opencc/OpenCC/_latestVersion)
 [![Travis](https://img.shields.io/travis/BYVoid/OpenCC.svg)](https://travis-ci.org/BYVoid/OpenCC)
-[![AppVeyor](https://img.shields.io/appveyor/ci/Carbo/OpenCC.svg)](https://ci.appveyor.com/project/Carbo/OpenCC)
+[![AppVeyor](https://img.shields.io/appveyor/ci/mrhso/opencc.svg)](https://ci.appveyor.com/project/mrhso/opencc)
 
 ## Introduction 介紹
 
@@ -110,7 +110,7 @@ See [android-opencc](https://github.com/qichuan/android-opencc)
 
 * [ibus-pinyin](https://github.com/ibus/ibus-pinyin)
 * [fcitx](https://github.com/fcitx/fcitx)
-* [rimeime](https://rime.im/)
+* [rimeime](http://code.google.com/p/rimeime/)
 * [libgooglepinyin](http://code.google.com/p/libgooglepinyin/)
 * [ibus-libpinyin](https://github.com/libpinyin/ibus-libpinyin)
 * [BYVBlog](https://github.com/byvoid/byvblog)
