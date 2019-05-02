@@ -6,9 +6,9 @@ build: off
 environment:
   matrix:
     - nodejs_version: stable
-    - nodejs_version: 10
-    - nodejs_version: 8
+    - nodejs_version: 7
     - nodejs_version: 6
+    - nodejs_version: 5
 
 platform:
   - x64
@@ -25,7 +25,7 @@ install:
 
 # to run your custom scripts instead of automatic tests
 test_script:
-  - IF %nodejs_version%==stable cmake -H. -Bbuild -G"Visual Studio 12"
+  - IF %nodejs_version%==stable cmake -H. -Bbuild -G"Visual Studio 14"
   - IF %nodejs_version%==stable cmake --build build --config Release --target install
   - npm test
 
